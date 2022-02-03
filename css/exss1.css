@@ -1,0 +1,65 @@
+            
+ h1 {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    color:white;
+    }
+h3{
+    text-align:center;
+    font-family: 'Bebas Neue', sans-serif;
+    color:black;
+    }
+body,html{
+    height:100%;
+    width:100%;
+    }
+body {
+    background-image:url("../images/genlobby.jpg");
+    background-repeat:no-repeat;
+    background-position:center center ;
+    background-size:cover;
+    background-attachment:fixed;
+    }
+ul{
+    list-style-type:none;
+    }
+li.home{
+    margin-bottom:3%;
+    }
+p{
+    text-align:center;
+    font-family: 'Bebas Neue', sans-serif;
+    color:black;
+    font-size:medium;
+    }
+footer {
+    left: 0;
+    bottom: 0;
+    height:3%;
+    width:100%;
+    background-color:black;
+    color:white;
+    text-align:center;
+    font-family: 'Bebas Neue', sans-serif;
+    }
+div>iframe{
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+    }
+li{
+    font-weight:bold;
+    font-size: 20px;
+    color:Black;
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration:none;
+    }
+section>ul{
+    visibility:hidden;
+    opacity:0;
+    transition: visibility 0s, opacity 0.5s linear;
+    }
+section:hover>ul{
+    visibility: visible;
+    opacity: 1;
+    }

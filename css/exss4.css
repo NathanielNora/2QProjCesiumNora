@@ -1,0 +1,184 @@
+body,html{
+    height:100%;
+    background-image:url("../images/1175581.jpg");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:cover;
+    background-attachment:fixed;
+}
+nav {
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	background-image:url("../images/genlobby.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+	border-radius: 8px;
+	font-size: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    top:0;
+}
+nav a {
+	height: 100%;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-align: center;
+	font-weight:700px;
+    font-size: 15px;
+    margin-top:1%;
+    margin-bottom:auto;
+    color:white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+nav .animation {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .5s;
+	border-radius: 8px;
+}
+a:nth-child(1){
+	width: 16.6%;
+}
+a:nth-child(2){
+	width: 16.6%;
+}
+a:nth-child(3){
+	width: 16.6%;
+}
+a:nth-child(4){
+	width: 16.6%;
+}
+a:nth-child(5){
+	width: 16.6%;
+}
+a:nth-child(6){
+	width: 16.6%;
+}
+nav .start-home, a:nth-child(1):hover~.animation{
+	width: 16.6%;
+    left:0%;
+	background-color: gray;
+}
+nav .start-page1, a:nth-child(2):hover~.animation{
+	width: 16.6%;
+    left:16.6%;
+	background-color: #0099ff;
+}
+nav .start-page2, a:nth-child(3):hover~.animation{
+	width: 16.6%;
+	left:33.2%;
+	background-color: #30bfbf;
+}
+nav .start-page3, a:nth-child(4):hover~.animation{
+	width: 16.6%;
+	left:49.8%;
+	background-color: #c27c0e;
+}
+nav .start-page4, a:nth-child(5):hover~.animation{
+	width: 16.6%;
+	left:66.4%;
+	background-color: #d983a6;
+}
+nav .start-page5, a:nth-child(6):hover~.animation{
+	width: 16.6%;
+	left:83%;
+	background-color: gray;
+}
+h1{
+  font-weight:700px;
+  font-size: 30x;
+  font-family: 'Bebas Neue', sans-serif;
+  text-align:center;
+  animation:sunset 6s linear 0s infinite;
+}
+@keyframes sunset {
+  from {
+    color:#ad1457 ;
+  }
+  10% {
+    color: #a84300;
+  }
+  50% {
+    color: #c27c0e;
+  }
+  75% {
+    color: #ee7600;
+  }
+  100% {
+    color: #ec544c;
+  }
+}
+.liyue{
+  font-weight:700px;
+  font-size: 20px;
+  color:white;
+  font-family: 'Bebas Neue', sans-serif;
+  text-align:center;
+}
+.lscen2{
+  width:31%;
+  margin:1%;
+}
+.fig{
+  text-align:center;
+  font-weight:700px;
+  font-size:15px;
+  color:white;
+  font-family: 'Bebas Neue', sans-serif;
+  margin-bottom:10px;
+  font-style:italic;
+}
+audio{
+  position:fixed;
+  bottom:60%;
+  left:1%;
+}
+.lcharr{
+  width:20%;
+  float:left;
+}
+table,th,td,tr{
+  border:1px double orange;
+  width:100%;
+  font-family: 'Bebas Neue', sans-serif;
+  color:white;
+  font-weight:700px;
+  font-size: 20px;
+  text-align:center;
+}
+.xiao{
+  width:20%;
+}
+.ganyu{
+  width:20%;
+}
+.zhong{
+  width:20%;
+}
+.hutao{
+  width:20%;
+}
+.keq{
+  width:20%;
+}
+footer {
+  left: 0;
+  bottom: 0;
+  height:3%;
+  width:100%;
+  background-color:black;
+  color:white;
+  text-align:center;
+  font-family: 'Bebas Neue', sans-serif;
+}
+iframe{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
